@@ -1,7 +1,7 @@
 terraform {
   backend "s3" {
-    bucket = "my-tf-test-bucket-miguel-tfstate"
+    bucket = "labs-kev-terraform/dev/"
     key    = "default-infrastructure.tfstate"
-    region = "us-east-1"
+    region = "eu-west-1"
   }
 }
